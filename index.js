@@ -4,7 +4,7 @@ function testFunc() {
   return "hi"
 }
 
-function ssuperbowlWin(arr){
+function superbowlWin(arr){
   let search = arr.find(arr => arr.result === "O");
 
   if (search === undefined){
